@@ -5,3 +5,7 @@ This repository contains the GPU implementation of AES-128 operating in CTR and 
 1) Edit the Makefile to choose your target GPU architecture. For RTX 4090, use -arch=sm_89; for RTX 3080, use -arch=sm_86; for V100, use -arch=sm_70; for T4, use -arch=sm_75;
 2) Compile the code on your termnial: 
 #make
+
+## reference
+
+- [AES-GPU by benlwk](https://github.com/benlwk/AES-GPU)
